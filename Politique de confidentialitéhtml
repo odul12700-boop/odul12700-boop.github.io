@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — FeralSync</title>
+<meta name="description" content="Politique de confidentialité de l'application FeralSync : aucune donnée collectée, stockage 100 % local.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e1412;
+    --surface: #16201c;
+    --text: #e8ede9;
+    --muted: #9fb0a7;
+    --accent: #3ec5c0;
+    --moss: #6fae57;
+    --border: #2a3833;
+    color-scheme: dark light;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafaf7;
+      --surface: #f0f2ec;
+      --text: #1c2420;
+      --muted: #5a6a61;
+      --accent: #0e8a85;
+      --moss: #4a7c38;
+      --border: #d8ded6;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 0 20px 80px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .rule {
+    height: 2px; border: 0;
+    background: linear-gradient(90deg, var(--moss), var(--accent));
+    margin: 0 0 48px;
+  }
+  header { padding: 56px 0 32px; }
+  .brand {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    font-weight: 700; letter-spacing: 0.18em;
+    font-size: 14px; color: var(--accent);
+    text-transform: uppercase;
+  }
+  h1 {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    font-weight: 700; font-size: clamp(28px, 5vw, 40px);
+    line-height: 1.15; margin: 12px 0 16px;
+  }
+  .thesis { font-size: clamp(18px, 3vw, 22px); color: var(--muted); max-width: 34ch; }
+  .thesis strong { color: var(--text); font-weight: 600; }
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 26px;
+    margin-bottom: 56px;
+  }
+  .summary h2 {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 14px;
+  }
+  .summary ul { padding-left: 20px; }
+  .summary li { margin: 8px 0; }
+  article { margin-bottom: 44px; }
+  .num {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    font-weight: 500; font-size: 13px;
+    color: var(--moss); letter-spacing: 0.12em;
+    display: block; margin-bottom: 4px;
+  }
+  h2.title {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    font-weight: 700; font-size: 22px; margin-bottom: 12px;
+  }
+  p { margin-bottom: 12px; }
+  ul.list { padding-left: 22px; margin-bottom: 12px; }
+  ul.list li { margin: 6px 0; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  .note {
+    border-left: 3px solid var(--moss);
+    padding: 10px 16px;
+    background: var(--surface);
+    border-radius: 0 10px 10px 0;
+    color: var(--muted); font-size: 15px;
+  }
+  footer {
+    margin-top: 64px; padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="brand">FeralSync</span>
+    <h1>Politique de confidentialité</h1>
+    <p class="thesis"><strong>Vos données ne quittent jamais votre téléphone.</strong> FeralSync fonctionne entièrement en local, sans compte, sans serveur et sans collecte.</p>
+  </header>
+  <hr class="rule">
+
+  <section class="summary">
+    <h2>En bref</h2>
+    <ul>
+      <li><strong>Aucune donnée n'est collectée</strong> ni transmise à l'éditeur ou à des tiers.</li>
+      <li>Tout ce que vous saisissez est <strong>stocké uniquement sur votre appareil</strong>.</li>
+      <li>La seule interaction externe : les <strong>liens vers Amazon.fr</strong>, ouverts uniquement si vous les touchez.</li>
+    </ul>
+  </section>
+
+  <article>
+    <span class="num">Article 1</span>
+    <h2 class="title">Éditeur de l'application</h2>
+    <p>L'application FeralSync est éditée par <strong>Ludovic Arrazat</strong>, entrepreneur individuel exerçant sous le nom commercial <strong>Fargam</strong>, en France.</p>
+    <p>Contact pour toute question relative à la confidentialité : <a href="mailto:contact@fargam.fr">contact@fargam.fr</a></p>
+  </article>
+
+  <article>
+    <span class="num">Article 2</span>
+    <h2 class="title">Données stockées sur votre appareil</h2>
+    <p>Pour fonctionner, FeralSync enregistre les informations suivantes <strong>exclusivement dans la mémoire locale de votre téléphone</strong> :</p>
+    <ul class="list">
+      <li>votre profil (sexe, taille, poids, objectif, préférence alimentaire) ;</li>
+      <li>vos horaires de vie (lever, travail, pause, coucher) et jours de repos ;</li>
+      <li>l'état de votre armoire à compléments (possédé / en rupture) ;</li>
+      <li>votre planning de repas et l'avancement de vos routines ;</li>
+      <li>l'état du minuteur de jeûne et vos préférences d'affichage et d'alertes.</li>
+    </ul>
+    <p>Ces données ne sont jamais transmises : l'application ne dispose d'aucun serveur, ne demande la création d'aucun compte et ne comporte aucun mécanisme d'envoi de données.</p>
+  </article>
+
+  <article>
+    <span class="num">Article 3</span>
+    <h2 class="title">Ce que FeralSync ne fait pas</h2>
+    <ul class="list">
+      <li>Aucune collecte de données personnelles par l'éditeur.</li>
+      <li>Aucun outil d'analyse d'audience ou de mesure statistique.</li>
+      <li>Aucune publicité intégrée, aucun SDK publicitaire.</li>
+      <li>Aucun traceur, aucun partage ni vente de données à des tiers.</li>
+      <li>Aucune géolocalisation, aucun accès à vos contacts, photos ou fichiers.</li>
+    </ul>
+  </article>
+
+  <article>
+    <span class="num">Article 4</span>
+    <h2 class="title">Liens d'affiliation Amazon</h2>
+    <p>FeralSync propose des boutons ouvrant des pages du site Amazon.fr (recherche de compléments ou de produits d'épicerie). Ces liens ne s'ouvrent que <strong>sur votre action volontaire</strong> et contiennent un identifiant de partenaire permettant d'attribuer une éventuelle commission à l'éditeur, sans surcoût pour vous.</p>
+    <p>Dès l'ouverture du lien dans votre navigateur ou l'application Amazon, la navigation est régie par la <a href="https://www.amazon.fr/gp/help/customer/display.html?nodeId=201909010" rel="noopener">politique de confidentialité d'Amazon</a>, qui peut notamment déposer des cookies d'attribution. FeralSync ne reçoit aucune information sur votre navigation ou vos achats.</p>
+    <p class="note">En tant que Partenaire Amazon, l'éditeur perçoit un bénéfice sur les achats remplissant les conditions requises.</p>
+  </article>
+
+  <article>
+    <span class="num">Article 5</span>
+    <h2 class="title">Notifications et autorisations</h2>
+    <p>Les rappels de routine (réveil, repas, coucher) sont des <strong>notifications locales</strong>, programmées et déclenchées sur votre appareil uniquement. Aucune notification « push » n'est envoyée depuis un serveur.</p>
+    <p>Autorisations utilisées : l'affichage des notifications (que vous pouvez accepter, refuser ou révoquer à tout moment dans les réglages Android) et le redémarrage de l'appareil, uniquement afin de reprogrammer vos rappels après celui-ci.</p>
+  </article>
+
+  <article>
+    <span class="num">Article 6</span>
+    <h2 class="title">Sauvegarde Android</h2>
+    <p>Comme la plupart des applications, FeralSync est compatible avec la <strong>sauvegarde automatique d'Android</strong> : votre appareil peut sauvegarder les données locales de l'application, chiffrées, sur votre propre compte Google, afin de les restaurer en cas de changement de téléphone. Ce mécanisme est géré par Android, sous votre contrôle exclusif, et peut être désactivé dans les paramètres de votre appareil. L'éditeur n'y a aucun accès.</p>
+  </article>
+
+  <article>
+    <span class="num">Article 7</span>
+    <h2 class="title">Suppression de vos données</h2>
+    <p>Vous pouvez effacer l'intégralité de vos données à tout moment, de deux manières :</p>
+    <ul class="list">
+      <li>via le bouton <strong>« Réinitialiser le profil »</strong> dans l'onglet Savoir de l'application ;</li>
+      <li>en <strong>désinstallant l'application</strong>, ce qui supprime définitivement toutes les données locales.</li>
+    </ul>
+  </article>
+
+  <article>
+    <span class="num">Article 8</span>
+    <h2 class="title">Public concerné</h2>
+    <p>FeralSync s'adresse à un public <strong>adulte</strong>. L'application n'est pas destinée aux personnes de moins de 18 ans et ne collecte, par conception, aucune donnée — y compris concernant des mineurs.</p>
+  </article>
+
+  <article>
+    <span class="num">Article 9</span>
+    <h2 class="title">Vos droits (RGPD)</h2>
+    <p>Le Règlement général sur la protection des données vous garantit des droits d'accès, de rectification, d'effacement et de portabilité. FeralSync les satisfait <strong>par conception</strong> : vos données résident chez vous, vous les consultez, les modifiez et les supprimez directement dans l'application, sans dépendre de l'éditeur.</p>
+    <p>Pour toute question, écrivez à <a href="mailto:contact@fargam.fr">contact@fargam.fr</a>. Vous disposez également du droit d'introduire une réclamation auprès de la <a href="https://www.cnil.fr" rel="noopener">CNIL</a>.</p>
+  </article>
+
+  <article>
+    <span class="num">Article 10</span>
+    <h2 class="title">Évolutions de cette politique</h2>
+    <p>Si une future version de FeralSync modifiait le traitement de vos données (par exemple l'ajout d'une fonctionnalité en ligne), cette politique serait mise à jour avant la publication de cette version, et la date ci-dessous actualisée.</p>
+  </article>
+
+  <footer>
+    <p>Dernière mise à jour : 13 juin 2026 — s'applique à FeralSync v1.0 (Android).</p>
+    <p>Fargam — forgé en Aveyron.</p>
+  </footer>
+</main>
+</body>
+</html>
